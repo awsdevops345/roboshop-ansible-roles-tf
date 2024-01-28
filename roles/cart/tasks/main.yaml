@@ -1,0 +1,24 @@
+- name: import common role tasks
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app-setup.yaml
+
+- name: import common role tasks
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: nodejs
+
+# - name: import common role tasks
+#   ansible.builtin.import_role:
+#     name: common
+#     tasks_from: mongo-setup
+
+- name: system start
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: systemd
+
+# - name: deployment
+#   ansible.builtin.import_role:
+#     name: common
+#     tasks_from: deployment
