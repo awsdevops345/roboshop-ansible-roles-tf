@@ -2,12 +2,12 @@ MONGODB_HOST: mongodb-dev.learnaws.online # submit your host
 REDIS_HOST: redis-dev.learnaws.online
 MYSQL_HOST: mysql-dev.learnaws.online
 RABBITMQ_HOST: rabbitmq-dev.learnaws.online
-CATALOGUE_HOST: catalogue-dev.learnaws.online
-USER_HOST: user-dev.learnaws.online
-CART_HOST: cart-dev.learnaws.online
-SHIPPING_HOST: shipping-dev.learnaws.online
-PAYMENT_HOST: payment-dev.learnaws.online
-DISPATCH_HOST: dispatch-dev.learnaws.online
+CATALOGUE_HOST: catalogue.app.dev.learnaws.online
+USER_HOST: user.app.dev.learnaws.online
+CART_HOST: cart.app.dev.learnaws.online
+SHIPPING_HOST: shipping.app.dev.learnaws.online
+PAYMENT_HOST: payment.app.dev.learnaws.online
+DISPATCH_HOST: dispatch.app.dev.learnaws.online
 rq_user: roboshop
 rq_password : roboshop123
 shipping_version: 1.0
