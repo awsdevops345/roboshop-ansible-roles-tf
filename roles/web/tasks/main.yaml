@@ -11,12 +11,12 @@
 
 - name: remove  html path
   ansible.builtin.file: 
-   name : /usr/share/nginx/html
+   name: /usr/share/nginx/html
    state: absent
 
 - name: create html path
   ansible.builtin.file: 
-   name : /usr/share/nginx/html
+   name: /usr/share/nginx/html
    state: directory
 
 - name: download app
